@@ -20,5 +20,11 @@
   "private": true,
   "imports": {
     "#cds-models/*": "./@cds-models/*/index.js"
+  },
+  "cds": {
+    "requires": {
+      "auth": "dummy",
+      "db": "hana"
+    }
   }
 }

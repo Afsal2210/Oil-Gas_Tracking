@@ -45,5 +45,5 @@ entity Sales : cuid, managed {
 entity Users : cuid, managed {
   name  : String(100) not null;
   email : String(150) not null;
-  role  : String(20)  default 'admin';
+  role  : String(20)  ;
 }
