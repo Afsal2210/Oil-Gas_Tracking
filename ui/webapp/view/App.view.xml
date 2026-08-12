@@ -1,0 +1,124 @@
+<mvc:View
+  controllerName="oilandgas.ui.controller.App"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:core="sap.ui.core"
+  displayBlock="true">
+
+  <App>
+    <Page title="{i18n>appTitle}" showHeader="true">
+      <IconTabBar id="iconTabBar" expanded="true" stretchContentHeight="true">
+        <items>
+
+          <IconTabFilter key="sales" text="{i18n>salesTab}" icon="sap-icon://sales-order">
+            <Table
+              id="salesTable"
+              items="{ path: '/Sales', parameters: { $orderby: 'soldDate desc' } }"
+              growing="true"
+              growingThreshold="20"
+              noDataText="{i18n>noSalesData}">
+              <headerToolbar>
+                <Toolbar>
+                  <Title text="{i18n>salesTab}" level="H2"/>
+                  <ToolbarSpacer/>
+                  <Button text="{i18n>create}" type="Emphasized" icon="sap-icon://add" press=".onCreateSale"/>
+                </Toolbar>
+              </headerToolbar>
+              <columns>
+                <Column><Text text="{i18n>colProduct}"/></Column>
+                <Column><Text text="{i18n>colQuantity}"/></Column>
+                <Column><Text text="{i18n>colUnitPrice}"/></Column>
+                <Column><Text text="{i18n>colCustomer}"/></Column>
+                <Column><Text text="{i18n>colDate}"/></Column>
+                <Column><Text text="{i18n>colRemarks}"/></Column>
+              </columns>
+              <items>
+                <ColumnListItem>
+                  <cells>
+                    <Text text="{product/name}"/>
+                    <Text text="{quantity}"/>
+                    <Text text="{unitPrice}"/>
+                    <Text text="{customer}"/>
+                    <Text text="{soldDate}"/>
+                    <Text text="{remarks}"/>
+                  </cells>
+                </ColumnListItem>
+              </items>
+            </Table>
+          </IconTabFilter>
+
+          <IconTabFilter key="stockIn" text="{i18n>stockInTab}" icon="sap-icon://add-product">
+            <Table
+              id="stockInTable"
+              items="{ path: '/StockIns', parameters: { $orderby: 'receivedDate desc' } }"
+              growing="true"
+              growingThreshold="20"
+              noDataText="{i18n>noStockData}">
+              <headerToolbar>
+                <Toolbar>
+                  <Title text="{i18n>stockInTab}" level="H2"/>
+                  <ToolbarSpacer/>
+                  <Button text="{i18n>create}" type="Emphasized" icon="sap-icon://add" press=".onCreateStockIn"/>
+                </Toolbar>
+              </headerToolbar>
+              <columns>
+                <Column><Text text="{i18n>colProduct}"/></Column>
+                <Column><Text text="{i18n>colQuantity}"/></Column>
+                <Column><Text text="{i18n>colUnitPrice}"/></Column>
+                <Column><Text text="{i18n>colSupplier}"/></Column>
+                <Column><Text text="{i18n>colDate}"/></Column>
+                <Column><Text text="{i18n>colRemarks}"/></Column>
+              </columns>
+              <items>
+                <ColumnListItem>
+                  <cells>
+                    <Text text="{product/name}"/>
+                    <Text text="{quantity}"/>
+                    <Text text="{unitPrice}"/>
+                    <Text text="{supplier}"/>
+                    <Text text="{receivedDate}"/>
+                    <Text text="{remarks}"/>
+                  </cells>
+                </ColumnListItem>
+              </items>
+            </Table>
+          </IconTabFilter>
+
+          <IconTabFilter key="products" text="{i18n>productsTab}" icon="sap-icon://product">
+            <Table
+              id="productsTable"
+              items="{ path: '/Products', parameters: { $orderby: 'name asc' } }"
+              growing="true"
+              growingThreshold="20"
+              noDataText="{i18n>noProductsData}">
+              <headerToolbar>
+                <Toolbar>
+                  <Title text="{i18n>productsTab}" level="H2"/>
+                  <ToolbarSpacer/>
+                  <Button text="{i18n>create}" type="Emphasized" icon="sap-icon://add" press=".onCreateProduct"/>
+                </Toolbar>
+              </headerToolbar>
+              <columns>
+                <Column><Text text="{i18n>colName}"/></Column>
+                <Column><Text text="{i18n>colType}"/></Column>
+                <Column><Text text="{i18n>colUnit}"/></Column>
+                <Column><Text text="{i18n>colDescription}"/></Column>
+              </columns>
+              <items>
+                <ColumnListItem>
+                  <cells>
+                    <Text text="{name}"/>
+                    <Text text="{type}"/>
+                    <Text text="{unit}"/>
+                    <Text text="{description}"/>
+                  </cells>
+                </ColumnListItem>
+              </items>
+            </Table>
+          </IconTabFilter>
+
+        </items>
+      </IconTabBar>
+    </Page>
+  </App>
+</mvc:View>
