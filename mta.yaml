@@ -1,0 +1,50 @@
+_schema-version: 3.3.0
+ID: oilAndGas_Tracking
+version: 1.0.0
+description: "Oil & Gas Tracking - backend (CAP service) + standalone Fiori UI, deployed together"
+parameters:
+  enable-parallel-deployments: true
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - bash -c "cd backend && npm ci && npx cds build --production"
+
+modules:
+  - name: oilAndGas_Tracking-srv
+    type: nodejs
+    path: backend/gen/srv
+    parameters:
+      instances: 1
+      buildpack: nodejs_buildpack
+    build-parameters:
+      builder: npm-ci
+    provides:
+      - name: srv-api # required by consumers of CAP services (e.g. approuter)
+        properties:
+          srv-url: ${default-url}
+    requires:
+      - name: oilAndGas_Tracking-db
+
+  - name: oilAndGas_Tracking-db-deployer
+    type: hdb
+    path: backend/gen/db
+    parameters:
+      buildpack: nodejs_buildpack
+    requires:
+      - name: oilAndGas_Tracking-db
+
+  - name: oilandgas-tracking-ui
+    type: staticfile
+    path: ui/webapp
+    parameters:
+      buildpack: staticfile_buildpack
+      memory: 64M
+      disk-quota: 256M
+
+resources:
+  - name: oilAndGas_Tracking-db
+    type: com.sap.xs.hdi-container
+    parameters:
+      service: hana
+      service-plan: hdi-shared

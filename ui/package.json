@@ -5,13 +5,5 @@
   "description": "Standalone Fiori (freestyle SAPUI5) app for the Oil & Gas Tracking backend",
   "scripts": {
     "start": "npx http-server webapp -p 8080 -c-1 -o /index.html"
-  },
-  "dependencies": {
-    "rebuild": "^0.1.2"
-  },
-  "cds": {
-    "requires": {
-      "html5-repo": true
-    }
   }
 }
