@@ -17,18 +17,18 @@
           <Toolbar>
             <Title text="{i18n>productsTab}" level="H2"/>
             <ToolbarSpacer/>
-            <!-- <Button text="{i18n>create}" type="Emphasized" icon="sap-icon://add" press=".onCreateProduct"/> -->
+            <Button text="{i18n>create}" type="Emphasized" icon="sap-icon://add" press=".onCreateProduct"/>
           </Toolbar>
         </headerToolbar>
         <columns>
-          <Column><Text text="{i18n>colName}"/></Column>
-          <Column><Text text="{i18n>colType}"/></Column>
-          <Column><Text text="{i18n>colUnit}"/></Column>
-          <Column><Text text="{i18n>colDescription}"/></Column>
-          <Column><Text text="{i18n>colPrice}"/></Column>
-          <Column><Text text="{i18n>colStockQuantity}"/></Column>
-          <Column><Text text="{i18n>colSupplier}"/></Column>
-          <Column><Text text="{i18n>colStorageLocation}"/></Column>
+          <Column><Text text="{i18n>name}"/></Column>
+          <Column><Text text="{i18n>type}"/></Column>
+          <Column><Text text="{i18n>unit}"/></Column>
+          <Column><Text text="{i18n>description}"/></Column>
+          <Column><Text text="{i18n>price}"/></Column>
+          <Column><Text text="{i18n>stockQuantity}"/></Column>
+          <Column><Text text="{i18n>supplier}"/></Column>
+          <Column><Text text="{i18n>storageLocation}"/></Column>
         </columns>
         <items>
           <ColumnListItem>

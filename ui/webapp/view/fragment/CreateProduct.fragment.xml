@@ -2,22 +2,22 @@
   <Dialog title="{i18n>createProductTitle}" contentWidth="26rem">
     <content>
       <VBox class="sapUiSmallMargin">
-        <Label text="{i18n>colName}" required="true"/>
-        <Input value="{newProduct>name}"/>
-        <Label text="{i18n>colType}" required="true"/>
-        <Input value="{newProduct>type}"/>
-        <Label text="{i18n>colUnit}"/>
-        <Input value="{newProduct>unit}"/>
-        <Label text="{i18n>colDescription}"/>
-        <TextArea value="{newProduct>description}" width="100%" rows="2"/>
-        <Label text="{i18n>colPrice}"/>
-        <Input type="Number" value="{newProduct>price}"/>
-        <Label text="{i18n>colStockQuantity}"/>
-        <Input type="Number" value="{newProduct>stockQuantity}"/>
-        <Label text="{i18n>colSupplier}"/>
-        <Input value="{newProduct>supplier}"/>
-        <Label text="{i18n>colStorageLocation}"/>
-        <Input value="{newProduct>storageLocation}"/>
+        <Label text="{i18n>name}" required="true" labelFor="productNameInput"/>
+        <Input id="productNameInput"/>
+        <Label text="{i18n>type}" required="true" labelFor="productTypeInput"/>
+        <Input id="productTypeInput"/>
+        <Label text="{i18n>unit}" labelFor="productUnitInput"/>
+        <Input id="productUnitInput"/>
+        <Label text="{i18n>description}" labelFor="productDescriptionInput"/>
+        <TextArea id="productDescriptionInput" width="100%" rows="2"/>
+        <Label text="{i18n>price}" labelFor="productPriceInput"/>
+        <Input id="productPriceInput" type="Number"/>
+        <Label text="{i18n>stockQuantity}" labelFor="productStockQuantityInput"/>
+        <Input id="productStockQuantityInput" type="Number"/>
+        <Label text="{i18n>supplier}" labelFor="productSupplierInput"/>
+        <Input id="productSupplierInput"/>
+        <Label text="{i18n>storageLocation}" labelFor="productStorageLocationInput"/>
+        <Input id="productStorageLocationInput"/>
       </VBox>
     </content>
     <beginButton>

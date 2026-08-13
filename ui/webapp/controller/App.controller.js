@@ -1,85 +1,89 @@
 sap.ui.define([
   "sap/ui/core/mvc/Controller",
   "sap/ui/core/Fragment",
-  "sap/ui/model/json/JSONModel",
   "sap/m/MessageToast",
   "sap/m/MessageBox"
-], function (Controller, Fragment, JSONModel, MessageToast, MessageBox) {
+], function (Controller, Fragment, MessageToast, MessageBox) {
   "use strict";
 
   return Controller.extend("oilandgas.ui.controller.App", {
 
-    onInit: function () {
-      this._dialogs = {};
-    },
+    onInit: function () {},
 
     onCreateProduct: function () {
-      this._openDialog("oilandgas.ui.view.fragment.CreateProduct", "newProduct", {
-        name: "",
-        type: "",
-        unit: "Gallons",
-        description: "",
-        price: null,
-        stockQuantity: null,
-        supplier: "",
-        storageLocation: ""
+      this._getCreateDialog().then((oDialog) => {
+        this._resetCreateForm();
+        oDialog.open();
       });
     },
 
-    onConfirmProduct: function (oEvent) {
-      const oDialog = oEvent.getSource().getParent();
-      const oData = oDialog.getModel("newProduct").getData();
+    onConfirmProduct: function () {
+      const name = this.byId("productNameInput").getValue().trim();
+      const type = this.byId("productTypeInput").getValue().trim();
+      const unit = this.byId("productUnitInput").getValue().trim();
+      const description = this.byId("productDescriptionInput").getValue();
+      const price = this.byId("productPriceInput").getValue();
+      const stockQuantity = this.byId("productStockQuantityInput").getValue();
+      const supplier = this.byId("productSupplierInput").getValue();
+      const storageLocation = this.byId("productStorageLocationInput").getValue();
 
-      if (!oData.name) {
+      if (!name) {
         MessageToast.show("Product name is required");
         return;
       }
-      if (!oData.type) {
+      if (!type) {
         MessageToast.show("Product type is required");
         return;
       }
 
       this.byId("productsTable").getBinding("items").create({
-        name: oData.name,
-        type: oData.type,
-        unit: oData.unit || "Gallons",
-        description: oData.description,
-        price: oData.price ? Number(oData.price) : null,
-        stockQuantity: oData.stockQuantity ? Number(oData.stockQuantity) : 0,
-        supplier: oData.supplier,
-        storageLocation: oData.storageLocation
+        name: name,
+        type: type,
+        unit: unit || "Gallons",
+        description: description,
+        price: price ? Number(price) : null,
+        stockQuantity: stockQuantity ? Number(stockQuantity) : 0,
+        supplier: supplier,
+        storageLocation: storageLocation
       }).created().then(() => {
         MessageToast.show("Product created");
       }).catch((oError) => {
         MessageBox.error(oError.message || "Failed to create product");
       });
 
-      oDialog.close();
+      this._dialog.close();
     },
 
-    onCancelDialog: function (oEvent) {
-      oEvent.getSource().getParent().close();
+    onCancelDialog: function () {
+      this._dialog.close();
     },
 
-    _openDialog: function (sFragmentName, sModelName, oInitialData) {
-      const oView = this.getView();
-
-      if (this._dialogs[sFragmentName]) {
-        this._dialogs[sFragmentName].setModel(new JSONModel(oInitialData), sModelName);
-        this._dialogs[sFragmentName].open();
-        return;
+    _getCreateDialog: function () {
+      if (this._dialog) {
+        return Promise.resolve(this._dialog);
       }
 
-      Fragment.load({
+      const oView = this.getView();
+      return Fragment.load({
         id: oView.getId(),
-        name: sFragmentName,
+        name: "oilandgas.ui.view.fragment.CreateProduct",
         controller: this
       }).then((oDialog) => {
-        this._dialogs[sFragmentName] = oDialog;
+        this._dialog = oDialog;
         oView.addDependent(oDialog);
-        oDialog.setModel(new JSONModel(oInitialData), sModelName);
-        oDialog.open();
+        return oDialog;
       });
+    },
+
+    _resetCreateForm: function () {
+      this.byId("productNameInput").setValue("");
+      this.byId("productTypeInput").setValue("");
+      this.byId("productUnitInput").setValue("Gallons");
+      this.byId("productDescriptionInput").setValue("");
+      this.byId("productPriceInput").setValue("");
+      this.byId("productStockQuantityInput").setValue("");
+      this.byId("productSupplierInput").setValue("");
+      this.byId("productStorageLocationInput").setValue("");
     }
   });
 });
