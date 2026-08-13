@@ -95,7 +95,7 @@
                 <Toolbar>
                   <Title text="{i18n>productsTab}" level="H2"/>
                   <ToolbarSpacer/>
-                  <Button text="{i18n>create}" type="Emphasized" icon="sap-icon://add" press=".onCreateProduct"/>
+                  <!-- <Button text="{i18n>create}" type="Emphasized" icon="sap-icon://add" press=".onCreateProduct"/> -->
                 </Toolbar>
               </headerToolbar>
               <columns>
