@@ -3,40 +3,17 @@ namespace oilandgas.db;
 using { cuid, managed } from '@sap/cds/common';
 
 /**
- * Parent entity - master data for each oil/gas product tracked by the company.
+ * Master data for each oil/gas product tracked by the company.
  */
 entity Products : cuid, managed {
-  name        : String(100)  not null;
-  type        : String(50)   not null; // e.g. Crude Oil, Diesel, Petrol, LPG
-  unit        : String(20)   default 'Gallons';
-  description : String(255);
-
-  stockIns    : Composition of many StockIns on stockIns.product = $self;
-  sales       : Composition of many Sales    on sales.product    = $self;
-}
-
-/**
- * Child entity - incoming stock (oil/gas received into the company).
- */
-entity StockIns : cuid, managed {
-  product      : Association to Products not null;
-  quantity     : Decimal(15,2) not null; // gallons received
-  unitPrice    : Decimal(15,2);
-  supplier     : String(100);
-  receivedDate : Date;
-  remarks      : String(255);
-}
-
-/**
- * Child entity - outgoing stock (oil/gas sold by the company).
- */
-entity Sales : cuid, managed {
-  product     : Association to Products not null;
-  quantity    : Decimal(15,2) not null; // gallons sold
-  unitPrice   : Decimal(15,2);
-  customer    : String(100);
-  soldDate    : Date;
-  remarks     : String(255);
+  name            : String(100)  not null;
+  type            : String(50)   not null; // e.g. Crude Oil, Diesel, Petrol, LPG
+  unit            : String(20)   default 'Gallons';
+  description     : String(255);
+  price           : Decimal(15,2);
+  stockQuantity   : Decimal(15,2) default 0;
+  supplier        : String(100);
+  storageLocation : String(100);
 }
 
 /**
