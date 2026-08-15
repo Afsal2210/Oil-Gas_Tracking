@@ -25,6 +25,7 @@ modules:
           srv-url: ${default-url}
     requires:
       - name: oilAndGas_Tracking-db
+      - name: oilAndGas_Tracking-auth
 
   - name: oilAndGas_Tracking-db-deployer
     type: hdb
@@ -43,6 +44,13 @@ modules:
       disk-quota: 256M
 
 resources:
+  - name: oilAndGas_Tracking-auth
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: ./backend/xs-security.json
+
   - name: oilAndGas_Tracking-db
     type: com.sap.xs.hdi-container
     parameters:

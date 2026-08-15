@@ -1,0 +1,20 @@
+{
+  "xsappname": "oilAndGas_Tracking",
+  "tenant-mode": "dedicated",
+  "description": "Security profile for Oil and Gas Tracking Backend",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Admin",
+      "description": "Admin access to CAP backend services"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "AdminRole",
+      "description": "Administrator Role",
+      "scope-references": [
+        "$XSAPPNAME.Admin"
+      ]
+    }
+  ]
+}
