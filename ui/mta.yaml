@@ -7,12 +7,24 @@ modules:
   - name: oilandgas-tracking-ui
     type: html5
     path: webapp
-    parameters:
-      version: 1.0.0-${timestamp}
     build-parameters:
       build-result: .
+      supported-platforms: []
+
+  - name: oilandgas-tracking-ui-deployer
+    type: com.sap.application.content
+    path: .
     requires:
       - name: oilAndGas-html5-repo-host
+        parameters:
+          content-target: true
+    build-parameters:
+      build-result: resources
+      requires:
+        - name: oilandgas-tracking-ui
+          artifacts:
+            - '*.zip'
+          target-path: resources/
 
 resources:
   - name: oilAndGas-html5-repo-host
