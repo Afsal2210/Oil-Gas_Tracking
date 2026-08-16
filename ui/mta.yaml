@@ -8,7 +8,12 @@ modules:
     type: html5
     path: webapp
     build-parameters:
-      build-result: .
+      build-result: dist
+      builder: custom
+      commands:
+        - mkdir -p dist
+        - cp -r Component.js index.html manifest.json xs-app.json i18n controller view dist/
+        - bash -c "cd dist && zip -r webapp.zip . -x webapp.zip"
       supported-platforms: []
 
   - name: oilandgas-tracking-ui-deployer
@@ -23,7 +28,7 @@ modules:
       requires:
         - name: oilandgas-tracking-ui
           artifacts:
-            - '*.zip'
+            - webapp.zip
           target-path: resources/
 
 resources:
