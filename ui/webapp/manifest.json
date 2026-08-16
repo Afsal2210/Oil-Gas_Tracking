@@ -8,15 +8,32 @@
     "applicationVersion": {
       "version": "1.0.0"
     },
+    "crossNavigation": {
+      "inbounds": {
+        "oilandgas-display": {
+          "semanticObject": "oilandgas",
+          "action": "display",
+          "title": "{{appTitle}}",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
+        }
+      }
+    },
     "dataSources": {
       "mainService": {
-        "uri": "https://bdf5b6cctrial-dev-oilandgas-tracking-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/admin/",
+        "uri": "/odata/v4/admin/",
         "type": "OData",
         "settings": {
           "odataVersion": "4.0"
         }
       }
     }
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "oilandgas.tracking"
   },
   "sap.ui": {
     "technology": "UI5",
