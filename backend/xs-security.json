@@ -1,5 +1,5 @@
 {
-  "xsappname": "oilAndGas_Tracking_dev",
+  "xsappname": "oilAndGas_Tracking",
   "tenant-mode": "dedicated",
   "description": "Security profile for Oil and Gas Tracking",
   "scopes": [
