@@ -56,3 +56,22 @@ resources:
     parameters:
       service: hana
       service-plan: hdi-shared
+
+      
+  - name: oilAndGas_Tracking-dest
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: destination
+      service-plan: lite
+
+  - name: oilAndGas-html5-repo-host
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: html5-apps-repo
+      service-plan: app-host
+
+  - name: oilAndGas-html5-runtime
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: html5-apps-repo
+      service-plan: app-runtime
