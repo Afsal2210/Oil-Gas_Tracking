@@ -1,22 +1,19 @@
 {
-  "xsappname": "oilAndGas_Tracking",
+  "xsappname": "oilAndGas_Tracking_dev",
   "tenant-mode": "dedicated",
   "description": "Security profile for Oil and Gas Tracking",
   "scopes": [
-    {
-      "name": "$XSAPPNAME.Admin",
-      "description": "Admin access"
+     {
+      "name": "uaa.user",
+      "description": "UAA"
     }
-  ],
-  "authorities": [
-    "$XSAPPNAME.Admin"
   ],
   "role-templates": [
     {
-      "name": "AdminRole",
-      "description": "Administrator Role",
+      "name": "Token_Exchange",
+      "description": "UAA",
       "scope-references": [
-        "$XSAPPNAME.Admin"
+        "uaa.user"
       ]
     }
   ],

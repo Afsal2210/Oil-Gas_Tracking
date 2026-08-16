@@ -1,17 +1,18 @@
-using { oilandgas.db as db } from '../db/schema';
+using {oilandgas.db as db} from '../db/schema';
 
 /**
  * Admin service for tracking oil/gas products and users.
  */
-@requires: 'Admin'
 service AdminService {
 
-    entity Products as projection on db.Products {
-        *
-    };
+    entity Products as
+        projection on db.Products {
+            *
+        };
 
-    entity Users as projection on db.Users {
-        *
-    };
+    entity Users    as
+        projection on db.Users {
+            *
+        };
 
 }

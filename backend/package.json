@@ -27,17 +27,10 @@
   },
   "cds": {
     "requires": {
-      "db": "hana",
-    "auth": {
-      "kind": "mocked",
-      "users": {
-        "alice": {
-          "roles": ["Admin"]
-        },
-        "bob": {
-          "roles": []
-        }
-      }}
+      "[development]": {
+        "auth": "dummy",
+        "db": "hana"
+      }
     }
   }
 }
