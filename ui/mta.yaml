@@ -13,7 +13,7 @@ modules:
       commands:
         - mkdir -p dist
         - cp -r Component.js index.html manifest.json xs-app.json i18n controller view dist/
-        - bash -c "cd dist && zip -r webapp.zip . -x webapp.zip"
+        - bash -c "cd dist && jar cf ../webapp.zip . && mv ../webapp.zip ./webapp.zip"
       supported-platforms: []
 
   - name: oilandgas-tracking-ui-deployer
