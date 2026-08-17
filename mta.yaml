@@ -51,6 +51,7 @@ modules:
           url: ~{srv-url}
           forwardAuthToken: true
       - name: oilAndGas_Tracking-auth
+      - name: oilAndGas_Tracking-dest
 
 resources:
   - name: oilAndGas_Tracking-auth
@@ -65,3 +66,9 @@ resources:
     parameters:
       service: hana
       service-plan: hdi-shared
+       
+  - name: oilAndGas_Tracking-dest
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: destination
+      service-plan: lite
