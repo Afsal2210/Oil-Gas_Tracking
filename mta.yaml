@@ -9,6 +9,7 @@ build-parameters:
     - builder: custom
       commands:
         - bash -c "cd backend && npm ci && npx cds build --production"
+        - bash -c "mkdir -p approuter/resources && cp -r ui/webapp/. approuter/resources/"
 
 modules:
   - name: oilAndGas_Tracking-srv
@@ -35,13 +36,21 @@ modules:
     requires:
       - name: oilAndGas_Tracking-db
 
-  - name: oilandgas-tracking-ui
-    type: staticfile
-    path: ui/webapp
+  - name: oilandgas-tracking-approuter
+    type: approuter.nodejs
+    path: approuter
     parameters:
-      buildpack: staticfile_buildpack
-      memory: 64M
+      keep-existing-routes: true
       disk-quota: 256M
+      memory: 256M
+    requires:
+      - name: srv-api
+        group: destinations
+        properties:
+          name: srv-api # must match the "destination" used in approuter/xs-app.json
+          url: ~{srv-url}
+          forwardAuthToken: true
+      - name: oilAndGas_Tracking-auth
 
 resources:
   - name: oilAndGas_Tracking-auth
