@@ -1,0 +1,172 @@
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:14:47.293173] Updated app with guid 1ffc2d3b-c852-4def-9096-ff93b6953ea9 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:14:47.387951] Updating process: "web" (STDOUT, API)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:25.388014] Uploading app package for app with guid 1ffc2d3b-c852-4def-9096-ff93b6953ea9 (STDOUT, API)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:25.570891] Updated app with guid 1ffc2d3b-c852-4def-9096-ff93b6953ea9 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:36.064632] Stopping app with guid 1ffc2d3b-c852-4def-9096-ff93b6953ea9 (STDOUT, API)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:36.097485] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 74beffaa-f501-4cfb-73db-ac8b (STDOUT, CELL)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:36.284498] Creating build for app with guid 1ffc2d3b-c852-4def-9096-ff93b6953ea9 (STDOUT, API)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:36.737682] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:36.778727] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:36.778817] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 4634e667-7fc2-4196-9069-16a92af79d7a (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:37.468457] Security group rules were updated (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:37.558007] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 4634e667-7fc2-4196-9069-16a92af79d7a (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:38.057867] Downloading app package... (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:38.058233] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:38.149991] Downloaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:38.605626] Downloaded app package (3.7M) (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:38.725844] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:38.996928] -----> Bootstrapping python (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:38.997066] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:38.997092] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:43.355606] -----> Installing binaries (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:43.356108] engines.node (package.json): >=20 (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:43.356140] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:43.356145] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:43.356150] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 08 17 07:15:45.577#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19031#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:43.356301] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:45.792693] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:45.792744] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:45.793019] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.182704] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.182948] -----> Creating runtime environment (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.185488] NODE_ENV=production (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.185547] NODE_HOME=/tmp/contents3590664469/deps/0/node (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.185551] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.185554] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.185561] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.185668] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.185760] -----> Building dependencies (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.185768] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.185927] Rebuilding any native modules (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.964451] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.970562] npm notice (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.970594] npm notice New major version of npm available! 11.12.1 -> 12.0.2 (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.970599] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.970605] npm notice To update run: npm install -g npm@12.0.2 (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:46.970610] npm notice (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:47.051645] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:47.905273] up to date in 761ms (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:47.905686] 31 packages are looking for funding (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:47.905714] run `npm fund` for details (STDOUT, STG)#
+#2026 08 17 07:15:56.489#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46005#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:48.895267] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 08 17 07:16:07.183#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46008#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:58.151469] Exit status 0 (STDOUT, STG)#
+#2026 08 17 07:16:07.183#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46008#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:58.151526] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 08 17 07:16:07.183#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46008#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:58.151570] Uploading droplet... (STDOUT, STG)#
+#2026 08 17 07:16:07.183#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46008#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:58.151999] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 08 17 07:16:07.183#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46008#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:58.172226] Uploaded build artifacts cache (225B) (STDOUT, STG)#
+#2026 08 17 07:16:07.183#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46008#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:15:58.966034] Creating droplet for app with guid 1ffc2d3b-c852-4def-9096-ff93b6953ea9 (STDOUT, API)#
+#2026 08 17 07:16:07.183#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46008#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:04.032677] Uploaded droplet (59.5M) (STDOUT, STG)#
+#2026 08 17 07:16:07.183#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46008#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:04.056061] Uploading complete (STDOUT, STG)#
+#2026 08 17 07:16:07.183#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46008#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:04.367562] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 4634e667-7fc2-4196-9069-16a92af79d7a (STDOUT, STG)#
+#2026 08 17 07:16:07.183#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46008#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:04.367638] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 4634e667-7fc2-4196-9069-16a92af79d7a (STDOUT, STG)#
+#2026 08 17 07:16:07.183#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-46008#
+[PollStageAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:04.412448] Staging complete for build 4634e667-7fc2-4196-9069-16a92af79d7a (STDOUT, API)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:07.257336] Updated app with guid 1ffc2d3b-c852-4def-9096-ff93b6953ea9 ({:droplet_guid=>"ba32512c-1513-4e9e-b63c-11d01fdba592"}) (STDOUT, API)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:07.442541] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 4634e667-7fc2-4196-9069-16a92af79d7a (STDOUT, STG)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:07.580992] Creating revision for app with guid 1ffc2d3b-c852-4def-9096-ff93b6953ea9 (STDOUT, API)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:07.629588] Starting app with guid 1ffc2d3b-c852-4def-9096-ff93b6953ea9 (STDOUT, API)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:07.853025] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 30805b34-ff06-4981-6f90-a2e1 (STDOUT, CELL)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:08.839056] Security group rules were updated (STDOUT, CELL)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:08.941451] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 30805b34-ff06-4981-6f90-a2e1 (STDOUT, CELL)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:09.438796] Downloading droplet... (STDOUT, CELL)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:13.688567] Downloaded droplet (59.5M) (STDOUT, CELL)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:13.688792] Starting health monitoring of container (STDOUT, CELL)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:13.890263] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:14.184299] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:14.852962] > oilAndGas_Tracking@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:14.852997] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:14.958603] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:15.332424] {"level":"info","logger":"cds","timestamp":"2026-08-17T07:16:15.330Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"1ffc2d3b-c852-4def-9096-ff93b6953ea9","component_name":"oilAndGas_Tracking-srv","component_instance":0,"source_instance":0,"organization_name":"bdf5b6cctrial","organization_id":"dd6970d2-ae68-4ced-8d37-796b3a61f2bb","space_name":"dev","space_id":"54d05607-5b01-4832-8a17-1192fd3a42a4","msg":"loaded model from 1 file(s):\n ","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:15.332461] srv/csn.json (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:15.652880] {"level":"info","logger":"cds","timestamp":"2026-08-17T07:16:15.651Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"1ffc2d3b-c852-4def-9096-ff93b6953ea9","component_name":"oilAndGas_Tracking-srv","component_instance":0,"source_instance":0,"organization_name":"bdf5b6cctrial","organization_id":"dd6970d2-ae68-4ced-8d37-796b3a61f2bb","space_name":"dev","space_id":"54d05607-5b01-4832-8a17-1192fd3a42a4","msg":"connect to db > hana {\n  database_id: '55abdb49-0aef-4fc1-b26c-8c8e4b34c1b6',\n  host: '55abdb49-0aef-4fc1-b26c-8c8e4b34c1b6.hna0.prod-us10.hanacloud.ondemand.com',\n  port: '443',\n  driver: 'com.sap.db.jdbc.Driver',\n  url: 'jdbc:sap://55abdb49-0aef-4fc1-b26c-8c8e4b34c1b6.hna0.prod-us10.hanacloud.ondemand.com:443?encrypt=true&validateCertificate=true&currentschema=40791667CEE24C09B5873EEF41E96EF6',\n  schema: '40791667CEE24C09B5873EEF41E96EF6',\n  certificate: '...',\n  hdi_user: '40791667CEE24C09B5873EEF41E96EF6_DJJN7YD18E72CP45LQJFP8V66_DT',\n  hdi_password: '...',\n  user: '40791667CEE24C09B5873EEF41E96EF6_DJJN7YD18E72CP45LQJFP8V66_RT',\n  password: '...'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:15.702936] {"level":"info","logger":"cds","timestamp":"2026-08-17T07:16:15.701Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"1ffc2d3b-c852-4def-9096-ff93b6953ea9","component_name":"oilAndGas_Tracking-srv","component_instance":0,"source_instance":0,"organization_name":"bdf5b6cctrial","organization_id":"dd6970d2-ae68-4ced-8d37-796b3a61f2bb","space_name":"dev","space_id":"54d05607-5b01-4832-8a17-1192fd3a42a4","msg":"using auth strategy { kind: 'jwt' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:15.789882] {"level":"info","logger":"cds","timestamp":"2026-08-17T07:16:15.789Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"1ffc2d3b-c852-4def-9096-ff93b6953ea9","component_name":"oilAndGas_Tracking-srv","component_instance":0,"source_instance":0,"organization_name":"bdf5b6cctrial","organization_id":"dd6970d2-ae68-4ced-8d37-796b3a61f2bb","space_name":"dev","space_id":"54d05607-5b01-4832-8a17-1192fd3a42a4","msg":"serving AdminService {\n  at: [ '/odata/v4/admin' ],\n  decl: 'srv/csn.json:190',\n  impl: 'srv/admin-service.js'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:15.799008] {"level":"info","logger":"cds","timestamp":"2026-08-17T07:16:15.798Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"1ffc2d3b-c852-4def-9096-ff93b6953ea9","component_name":"oilAndGas_Tracking-srv","component_instance":0,"source_instance":0,"organization_name":"bdf5b6cctrial","organization_id":"dd6970d2-ae68-4ced-8d37-796b3a61f2bb","space_name":"dev","space_id":"54d05607-5b01-4832-8a17-1192fd3a42a4","msg":"server listening on { url: 'http://localhost:8080' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:15.802836] {"level":"info","logger":"cds","timestamp":"2026-08-17T07:16:15.800Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"1ffc2d3b-c852-4def-9096-ff93b6953ea9","component_name":"oilAndGas_Tracking-srv","component_instance":0,"source_instance":0,"organization_name":"bdf5b6cctrial","organization_id":"dd6970d2-ae68-4ced-8d37-796b3a61f2bb","space_name":"dev","space_id":"54d05607-5b01-4832-8a17-1192fd3a42a4","msg":"server v9.9.3 launched in 933 ms","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:16.989148] Container became healthy (STDOUT, CELL)#
+#2026 08 17 07:16:17.484#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilAndGas_Tracking-srv#flowable-async-job-executor-thread-19053#
+[PollStartAppStatusExecution] 1ffc2d3b-c852-4def-9096-ff93b6953ea9 [2026-08-17T07:16:17.011972] Process became ready with guid 1ffc2d3b-c852-4def-9096-ff93b6953ea9 payload: {"instance"=>"30805b34-ff06-4981-6f90-a2e1", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "ready"=>true, "version"=>"341c534e-6cd8-4121-8185-0013bee64325"} (STDOUT, API)#

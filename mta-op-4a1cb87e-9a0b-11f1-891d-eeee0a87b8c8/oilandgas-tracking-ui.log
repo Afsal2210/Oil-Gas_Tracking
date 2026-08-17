@@ -1,0 +1,100 @@
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:14:52.912326] Updated app with guid 55fdbe42-21c0-4124-910f-f3ff570d973c ({"lifecycle"=>{"data"=>{"buildpacks"=>["staticfile_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:14:53.023016] Updating process: "web" (STDOUT, API)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:05.205072] Uploading app package for app with guid 55fdbe42-21c0-4124-910f-f3ff570d973c (STDOUT, API)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:15.430271] Stopping app with guid 55fdbe42-21c0-4124-910f-f3ff570d973c (STDOUT, API)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:15.457929] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance d8cbb679-a094-4945-447f-9a3c (STDOUT, CELL)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:15.651192] Creating build for app with guid 55fdbe42-21c0-4124-910f-f3ff570d973c (STDOUT, API)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:16.423350] Downloading staticfile_buildpack... (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:16.469717] Downloaded staticfile_buildpack (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:16.469829] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 3c31e2ba-5da1-411b-bb07-91127b70e753 (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.192965] Security group rules were updated (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.287638] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 3c31e2ba-5da1-411b-bb07-91127b70e753 (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.667009] Downloading app package... (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.667032] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.737938] Downloaded app package (4.1K) (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.744265] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.865994] -----> Staticfile Buildpack version 1.6.38 (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.866346] -----> Installing nginx (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.866417] Using nginx version 1.27.5 (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.866461] -----> Installing nginx 1.27.5 (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.866577] Copy [/tmp/buildpacks/0b8667acef1baf19/dependencies/48f580fe357c086b91a243c0c64ba2eb/nginx-static_1.27.5_linux_x64_cflinuxfs4_96cd8830.tgz] (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.945926] -----> Root folder /tmp/app (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.946031] -----> Copying project files into public (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:17.946792] -----> Configuring nginx (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:18.353253] Exit status 0 (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:18.353335] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:18.353410] Uploading droplet... (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:18.353775] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:18.382961] Uploaded build artifacts cache (221B) (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:18.430951] Creating droplet for app with guid 55fdbe42-21c0-4124-910f-f3ff570d973c (STDOUT, API)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:22.451193] Uploaded droplet (2.4M) (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:22.452300] Uploading complete (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:23.036668] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 3c31e2ba-5da1-411b-bb07-91127b70e753 (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:23.036702] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 3c31e2ba-5da1-411b-bb07-91127b70e753 (STDOUT, STG)#
+#2026 08 17 07:15:25.162#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-45975#
+[PollStageAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:23.080073] Staging complete for build 3c31e2ba-5da1-411b-bb07-91127b70e753 (STDOUT, API)#
+#2026 08 17 07:15:35.327#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:24.761197] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 3c31e2ba-5da1-411b-bb07-91127b70e753 (STDOUT, STG)#
+#2026 08 17 07:15:35.327#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:25.237346] Updated app with guid 55fdbe42-21c0-4124-910f-f3ff570d973c ({:droplet_guid=>"ba8c64cb-8eec-4152-8860-d97ec14bb87d"}) (STDOUT, API)#
+#2026 08 17 07:15:35.327#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:25.523637] Creating revision for app with guid 55fdbe42-21c0-4124-910f-f3ff570d973c (STDOUT, API)#
+#2026 08 17 07:15:35.327#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:25.563284] Starting app with guid 55fdbe42-21c0-4124-910f-f3ff570d973c (STDOUT, API)#
+#2026 08 17 07:15:35.327#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:25.849490] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance f1e7783e-81c1-4f14-5e99-07c4 (STDOUT, CELL)#
+#2026 08 17 07:15:35.327#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:26.618517] Security group rules were updated (STDOUT, CELL)#
+#2026 08 17 07:15:35.327#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:26.732171] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance f1e7783e-81c1-4f14-5e99-07c4 (STDOUT, CELL)#
+#2026 08 17 07:15:35.327#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:27.811946] Downloading droplet... (STDOUT, CELL)#
+#2026 08 17 07:15:35.327#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:28.092859] Downloaded droplet (2.4M) (STDOUT, CELL)#
+#2026 08 17 07:15:35.327#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:28.093256] Starting health monitoring of container (STDOUT, CELL)#
+#2026 08 17 07:15:35.327#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:28.232986] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:15:35.328#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:28.296197] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 08 17 07:15:35.328#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:28.300722] + /home/vcap/app/start_logging.sh (STDERR, APP/PROC/WEB)#
+#2026 08 17 07:15:35.328#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:28.302687] + nginx -p /home/vcap/app/nginx -c /home/vcap/app/nginx/conf/nginx.conf (STDERR, APP/PROC/WEB)#
+#2026 08 17 07:15:35.328#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:30.504026] Container became healthy (STDOUT, CELL)#
+#2026 08 17 07:15:35.328#Z#DEBUG#4a1cb87e-9a0b-11f1-891d-eeee0a87b8c8.oilandgas-tracking-ui#flowable-async-job-executor-thread-19022#
+[PollStartAppStatusExecution] 55fdbe42-21c0-4124-910f-f3ff570d973c [2026-08-17T07:15:30.530100] Process became ready with guid 55fdbe42-21c0-4124-910f-f3ff570d973c payload: {"instance"=>"f1e7783e-81c1-4f14-5e99-07c4", "index"=>0, "cell_id"=>"d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0", "ready"=>true, "version"=>"ed511016-1a2e-4869-9645-af264ffa6b51"} (STDOUT, API)#
