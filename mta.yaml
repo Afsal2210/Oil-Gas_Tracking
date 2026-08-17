@@ -44,8 +44,13 @@ modules:
       disk-quota: 256M
       memory: 256M
     requires:
+      - name: srv-api
+        group: destinations
+        properties:
+          name: srv-api # must match the "destination" used in approuter/xs-app.json
+          url: ~{srv-url}
+          forwardAuthToken: true
       - name: oilAndGas_Tracking-auth
-      - name: oilAndGas_Tracking-dest
 
 resources:
   - name: oilAndGas_Tracking-auth
