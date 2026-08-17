@@ -23,7 +23,7 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "/odata/v4/admin/",
+        "uri": "https://bdf5b6cctrial-dev-oilandgas-tracking-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/admin/",
         "type": "OData",
         "settings": {
           "odataVersion": "4.0"

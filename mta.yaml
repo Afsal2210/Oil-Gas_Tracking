@@ -36,31 +36,12 @@ modules:
       - name: oilAndGas_Tracking-db
 
   - name: oilandgas-tracking-ui
-    type: html5
+    type: staticfile
     path: ui/webapp
-    build-parameters:
-      build-result: dist
-      builder: custom
-      commands:
-        - mkdir -p dist
-        - cp -r Component.js index.html manifest.json xs-app.json i18n controller view dist/
-        - bash -c "cd dist && jar cf ../webapp.zip . && mv ../webapp.zip ./webapp.zip"
-      supported-platforms: []
-
-  - name: oilandgas-tracking-ui-deployer
-    type: com.sap.application.content
-    path: ui
-    requires:
-      - name: oilAndGas-html5-repo-host
-        parameters:
-          content-target: true
-    build-parameters:
-      build-result: resources
-      requires:
-        - name: oilandgas-tracking-ui
-          artifacts:
-            - webapp.zip
-          target-path: resources/
+    parameters:
+      buildpack: staticfile_buildpack
+      memory: 64M
+      disk-quota: 256M
 
 resources:
   - name: oilAndGas_Tracking-auth
