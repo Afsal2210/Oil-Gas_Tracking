@@ -9,6 +9,7 @@ build-parameters:
     - builder: custom
       commands:
         - bash -c "cd backend && npm ci && npx cds build --production"
+        - bash -c "mkdir -p approuter/resources && cp -r ui/webapp/. approuter/resources/"
 
 modules:
   - name: oilAndGas_Tracking-srv
@@ -35,66 +36,16 @@ modules:
     requires:
       - name: oilAndGas_Tracking-db
 
-  - name: oilandgas-tracking-ui
-    type: html5
-    path: ui/webapp
-    build-parameters:
-      build-result: dist
-      builder: custom
-      commands:
-        - mkdir -p dist
-        - cp -r Component.js index.html manifest.json xs-app.json i18n controller view dist/
-        - bash -c "cd dist && jar cf ../webapp.zip . && mv ../webapp.zip ./webapp.zip"
-      supported-platforms: []
-
-  - name: oilandgas-tracking-ui-deployer
-    type: com.sap.application.content
-    path: ui
-    requires:
-      - name: oilAndGas-html5-repo-host
-        parameters:
-          content-target: true
-          config:
-            HTML5Runtime_enabled: true
-    build-parameters:
-      build-result: resources
-      requires:
-        - name: oilandgas-tracking-ui
-          artifacts:
-            - webapp.zip
-          target-path: resources/
-
-  - name: oilAndGas_Tracking-destinations
-    type: com.sap.application.content
+  - name: oilandgas-tracking-approuter
+    type: approuter.nodejs
+    path: approuter
+    parameters:
+      keep-existing-routes: true
+      disk-quota: 256M
+      memory: 256M
     requires:
       - name: oilAndGas_Tracking-auth
-        parameters:
-          service-key:
-            name: oilAndGas_Tracking-auth-key
-      - name: oilAndGas-html5-repo-host
-        parameters:
-          service-key:
-            name: oilAndGas-html5-repo-host-key
-      - name: srv-api
       - name: oilAndGas_Tracking-dest
-        parameters:
-          content-target: true
-    build-parameters:
-      no-source: true
-    parameters:
-      content:
-        instance:
-          existing_destinations_policy: update
-          destinations:
-            - Name: oilAndGas_Tracking-html5-repository
-              ServiceInstanceName: oilAndGas-html5-repo-host
-              ServiceKeyName: oilAndGas-html5-repo-host-key
-              sap.cloud.service: oilandgas.tracking
-            - Name: oilAndGas_Tracking-auth
-              Authentication: OAuth2UserTokenExchange
-              ServiceInstanceName: oilAndGas_Tracking-auth
-              ServiceKeyName: oilAndGas_Tracking-auth-key
-              sap.cloud.service: oilandgas.tracking
 
 resources:
   - name: oilAndGas_Tracking-auth
@@ -115,15 +66,3 @@ resources:
     parameters:
       service: destination
       service-plan: lite
-
-  - name: oilAndGas-html5-repo-host
-    type: org.cloudfoundry.managed-service
-    parameters:
-      service: html5-apps-repo
-      service-plan: app-host
-
-  - name: oilAndGas-html5-runtime
-    type: org.cloudfoundry.managed-service
-    parameters:
-      service: html5-apps-repo
-      service-plan: app-runtime
