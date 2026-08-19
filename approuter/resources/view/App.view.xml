@@ -1,0 +1,50 @@
+<mvc:View
+  controllerName="oilandgas.ui.controller.App"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:core="sap.ui.core"
+  displayBlock="true">
+
+  <App>
+    <Page title="{i18n>appTitle}" showHeader="true">
+      <Table
+        id="productsTable"
+        items="{ path: '/Products', parameters: { $orderby: 'name asc' } }"
+        growing="true"
+        growingThreshold="20"
+        noDataText="{i18n>noProductsData}">
+        <headerToolbar>
+          <Toolbar>
+            <Title text="{i18n>productsTab}" level="H2"/>
+            <ToolbarSpacer/>
+            <Button text="{i18n>create}" type="Emphasized" icon="sap-icon://add" press=".onCreateProduct"/>
+          </Toolbar>
+        </headerToolbar>
+        <columns>
+          <Column><Text text="{i18n>names}"/></Column>
+          <Column><Text text="{i18n>type}"/></Column>
+          <Column><Text text="{i18n>unit}"/></Column>
+          <Column><Text text="{i18n>description}"/></Column>
+          <Column><Text text="{i18n>price}"/></Column>
+          <Column><Text text="{i18n>stockQuantity}"/></Column>
+          <Column><Text text="{i18n>supplier}"/></Column>
+          <Column><Text text="{i18n>storageLocation}"/></Column>
+        </columns>
+        <items>
+          <ColumnListItem>
+            <cells>
+              <Text text="{name}"/>
+              <Text text="{type}"/>
+              <Text text="{unit}"/>
+              <Text text="{description}"/>
+              <Text text="{price}"/>
+              <Text text="{stockQuantity}"/>
+              <Text text="{supplier}"/>
+              <Text text="{storageLocation}"/>
+            </cells>
+          </ColumnListItem>
+        </items>
+      </Table>
+    </Page>
+  </App>
+</mvc:View>

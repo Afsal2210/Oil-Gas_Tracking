@@ -27,7 +27,6 @@ modules:
     requires:
       - name: oilAndGas_Tracking-db
       - name: oilAndGas_Tracking-auth
-      - name: oilAndGas_Tracking-dest
 
   - name: oilAndGas_Tracking-db-deployer
     type: hdb
@@ -45,8 +44,13 @@ modules:
       disk-quota: 256M
       memory: 256M
     requires:
+      - name: srv-api
+        group: destinations
+        properties:
+          name: srv-api # must match the "destination" used in approuter/xs-app.json
+          url: ~{srv-url}
+          forwardAuthToken: true
       - name: oilAndGas_Tracking-auth
-      - name: oilAndGas_Tracking-dest
 
 resources:
   - name: oilAndGas_Tracking-auth
@@ -61,24 +65,12 @@ resources:
     parameters:
       service: hana
       service-plan: hdi-shared
-       
+      config:
+      database_id: "55abdb49-0aef-4fc1-b26c-8c8e4b34c1b6"
+
   - name: oilAndGas_Tracking-dest
     type: org.cloudfoundry.managed-service
     parameters:
       service: destination
       service-plan: lite
-      config:
-        HTML5Runtime_enabled: true
-        init_data:
-          instance:
-            existing_destinations_policy: update
-            destinations:
-              - Name: oilAndGasService
-                URL: ~{srv-api/srv-url}
-                Authentication: NoAuthentication
-                Type: HTTP
-                ProxyType: Internet
-                HTML5.ForwardAuthToken: true
-                HTML5.DynamicDestination: true
-    requires:
-      - name: srv-api
+      

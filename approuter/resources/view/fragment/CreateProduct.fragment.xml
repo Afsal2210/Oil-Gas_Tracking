@@ -1,0 +1,30 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+  <Dialog title="{i18n>createProductTitle}" contentWidth="26rem">
+    <content>
+      <VBox class="sapUiSmallMargin">
+        <Label text="{i18n>name}" required="true" labelFor="productNameInput"/>
+        <Input id="productNameInput"/>
+        <Label text="{i18n>type}" required="true" labelFor="productTypeInput"/>
+        <Input id="productTypeInput"/>
+        <Label text="{i18n>unit}" labelFor="productUnitInput"/>
+        <Input id="productUnitInput"/>
+        <Label text="{i18n>description}" labelFor="productDescriptionInput"/>
+        <TextArea id="productDescriptionInput" width="100%" rows="2"/>
+        <Label text="{i18n>price}" labelFor="productPriceInput"/>
+        <Input id="productPriceInput" type="Number"/>
+        <Label text="{i18n>stockQuantity}" labelFor="productStockQuantityInput"/>
+        <Input id="productStockQuantityInput" type="Number"/>
+        <Label text="{i18n>supplier}" labelFor="productSupplierInput"/>
+        <Input id="productSupplierInput"/>
+        <Label text="{i18n>storageLocation}" labelFor="productStorageLocationInput"/>
+        <Input id="productStorageLocationInput"/>
+      </VBox>
+    </content>
+    <beginButton>
+      <Button text="{i18n>create}" type="Emphasized" press=".onConfirmProduct"/>
+    </beginButton>
+    <endButton>
+      <Button text="{i18n>cancel}" press=".onCancelDialog"/>
+    </endButton>
+  </Dialog>
+</core:FragmentDefinition>
