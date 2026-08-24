@@ -30,6 +30,10 @@
       "[development]": {
         "auth": "dummy",
         "db": "hana"
+      },
+       "[production]": {
+        "auth": "xsuaa",
+        "db": "hana"
       }
     }
   }
