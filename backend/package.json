@@ -27,11 +27,11 @@
   },
   "cds": {
     "requires": {
-      "[development]": {
+      "[hybrid]": {
         "auth": "dummy",
         "db": "hana"
       },
-       "[production]": {
+      "[production]": {
         "auth": "xsuaa",
         "db": "hana"
       }

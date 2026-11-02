@@ -66,7 +66,7 @@ resources:
       service: hana
       service-plan: hdi-shared
       config:
-      database_id: "55abdb49-0aef-4fc1-b26c-8c8e4b34c1b6"
+      database_id: "702c30d1-6450-4e30-b59d-9dbc67c4e4e7"
 
   - name: oilAndGas_Tracking-dest
     type: org.cloudfoundry.managed-service

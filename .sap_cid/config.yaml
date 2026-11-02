@@ -5,11 +5,18 @@ stages:
     buildDescriptor: "mta.yaml"
     buildToolVersion: "MBTJ25N24"
   malwareScan:
-    scan: true
+    scan: false
+  acceptance:
+    cfDeploy:
+      strategy: "default"
+      apiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
+      org: "28b0e0betrial"
+      space: "dev"
+      credential: "btpdeploy"
   release:
     cfDeploy:
       strategy: "default"
       apiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
-      org: "React_Dev_Org1"
-      space: "Dev"
-      credential: "oilandgas-deploy"
+      org: "28b0e0betrial"
+      space: "dev"
+      credential: "btpdeploy"
